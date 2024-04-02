@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+    <div class="valor">
+        <h3>Calculadora com Passagem de parâmetro</h3>
+        <h1>Informe o 1° valor:</h1><input type="text" id="txtn1" required/> 
+        <h1>Informe o 2° valor:</h1><input type="text" id="txtn2" required/></br>
+    </div>
+   
+    <div class="button">
+        <input type="button" value="+" onclick="calcular('+')"/>
+        <input type="button" value="-" onclick = "calcular('-')">
+        <input type="button" value="*"  onclick="calcular('*')"/>
+        <input type="button" value=":"  onclick="calcular(':')"/>
+        <input type="reset" value="C"/>
+    </div>
+   
+    <div class="resultado">
+        <h1>O resultado é</h1>
+        <input type="text" id="result" required/>
+        <input type="text" id="parimpar" required/>
+    </div>
+</form>
+</body>
+</html>
